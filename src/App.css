@@ -43,7 +43,6 @@ body {
   }
   
   .react-horizontal-scrolling-menu--wrapper {
-	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
   }
@@ -83,7 +82,8 @@ body {
   }
   
   .bodyPart-card {
-	transform: scale(1, 1);
+	justify-content: left;
+	transform: scale(1,1);
 	transition: 0.3s all ease-in-out;
   }
   
@@ -141,4 +141,7 @@ body {
 	.exercise-card {
 	  width: 280px;
 	}
+  }
+  .MuiStack-root {
+	margin-left: 10px !important;
   }
