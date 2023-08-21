@@ -2,7 +2,9 @@ import React from 'react';
 import { Stack, Typography } from '@mui/material';
 import Icon from '../assets/icons/gym.png';
 
+var setBodyPart;
 const BodyPart = ({ item, setBodyPart, bodyPart }) => (
+  
   <Stack
     type="button"
     alignItems="center"
