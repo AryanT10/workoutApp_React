@@ -1,70 +1,50 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Check out this deployed version: `gymappreact.netlify.app`
 
-## Available Scripts
+# Workout App
 
-In the project directory, you can run:
+The Workout App is a web application built using React that provides users with exercises and workout-related information. Users can browse through various exercises, watch exercise videos, and find similar exercises based on different criteria.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Browse and view detailed information about different exercises.
+- Watch exercise videos from YouTube.
+- Discover similar exercises based on target muscles and equipment.
+- Responsive design for both desktop and mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+  1. Clone the repository: git clone `git@github.com:AryanT10/workoutApp_React.git`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  2.Navigate to the project directory: cd `WORKOUTAPP_REACT`
 
-### `npm run build`
+  3.`npm install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  4.`npm start` : The app will be accessible at http://localhost:3000.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To learn `React`, check out the [React documentation](https://reactjs.org/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Dependencies
 
-### Code Splitting
+`React`: A JavaScript library for building user interfaces.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`React` Router: Declarative routing for React applications.
 
-### Analyzing the Bundle Size
+`Material-UI`: A popular UI component library for React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+`react`-horizontal-scrolling-menu: A library for creating horizontal scrolling menus.
 
-### Making a Progressive Web App
+Other dependencies listed in the package.json file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Usage
 
-### Advanced Configuration
+•Browse Exercises: Explore a variety of exercises categorized by different criteria, such as body part and equipment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+•Exercise Detail: Click on an exercise to view detailed information, including description, target muscle, and equipment.
 
-### Deployment
+•Exercise Videos: Watch exercise videos from YouTube to learn how to perform different exercises correctly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+•Similar Exercises: Discover exercises similar to the one you're viewing based on target muscle and equipment.
