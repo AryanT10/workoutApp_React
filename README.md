@@ -31,11 +31,11 @@ To learn `React`, check out the [React documentation](https://reactjs.org/).
 
 `React`: A JavaScript library for building user interfaces.
 
-`React` Router: Declarative routing for React applications.
+`React-Router`: Declarative routing for React applications.
 
 `Material-UI`: A popular UI component library for React.
 
-`react`-horizontal-scrolling-menu: A library for creating horizontal scrolling menus.
+`react-horizontal-scrolling-menu`: A library for creating horizontal scrolling menus.
 
 Other dependencies listed in the package.json file.
 
